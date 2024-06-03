@@ -227,7 +227,7 @@ ga.set_hyperparameter('repeated_genes_allowed',
                       0)  # In this case the repeated genes are NOT allowed ---> Each item can be taken only once
 ga.set_hyperparameter('minimize', 0)  # In this case the goal is to maximize the fitness
 ga.set_hyperparameter('elitism_rate', 0.1)  # Set an elitism rate of 0.1
-ga.set_hyperparameter('mutation_rate', 0.4)  # Set a mutation rate of 0.15
+ga.set_hyperparameter('mutation_rate', 0.4)  # Set a mutation rate of 0.4
 ga.set_hyperparameter('mutation_type', 'both')  # Set the mutation type
 # ga.set_hyperparameter('keep_diversity', 10)  # Set a mechanism to keep the diversity every 5 generations
 ga.set_hyperparameter('show_progress',
