@@ -171,7 +171,7 @@ times = []
 for _ in range(10):
     start_time = time.time()
     while True:
-        length = random.randint(10,28)
+        length = random.randint(15,22)
         random_array = random.sample(numbers, length)
         fitness = fun_fitness(random_array)
         count += 1
